@@ -13,6 +13,5 @@ int calcMaxProfit(const int* dataBuf, int dataBufSize)
         minv = min(minv, dataBuf[i]);
     }
     
-    cout << "***output***" << endl;
-    cout << maxv << endl;
+    return maxv;
 }
