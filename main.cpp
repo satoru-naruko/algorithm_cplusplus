@@ -1,29 +1,18 @@
 #include <iostream>
 #include <algorithm>
-#include "calc_max_profit.h"
+#include "insertion_sort.h"
 using namespace std;
-
-static const int MAX=200000;
 
 int main(){
     
-    int R[MAX] ={};
-    int n;
+    int R[10] ={};
 
-    cin >> n;
-
-    for (size_t i = 0; i < n; i++)
+    for (size_t i = 0; i < 10; i++)
     {
         cin >> R[i];
     }
+
+    insertionSort(R, 10);
     
-    int maxv = -200000000;
-    int minv = R[0];
-
-    auto ans = calcMaxProfit(R, MAX);    
-
-    cout << "***output***" << endl;
-    cout << ans << endl;
-
     return 0;
 }
