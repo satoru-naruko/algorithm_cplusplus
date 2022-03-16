@@ -14,7 +14,7 @@ set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 add_executable(algorithm_cplusplus  
     main.cpp 
     src/calc_max_profit.cpp
-    src/insertion_sort.cpp
+    src/sort.cpp
 )
 
 target_include_directories(algorithm_cplusplus
