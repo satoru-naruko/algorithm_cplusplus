@@ -1,6 +1,6 @@
 #include <iostream>
 #include <algorithm>
-#include "insertion_sort.h"
+#include "sort.h"
 using namespace std;
 
 int main(){
