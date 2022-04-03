@@ -1,9 +1,13 @@
 #include <iostream>
 #include <algorithm>
 #include "sort.h"
+#include "queue.h"
 using namespace std;
 
 int main(){
+    
+    Queue<int> t;
+    t.init(10);
     
     int R[10] ={};
 
